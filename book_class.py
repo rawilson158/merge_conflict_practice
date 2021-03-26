@@ -20,9 +20,10 @@ class Booklist():
     	return len(self.books)
   
 	def remove_title(self, title):
-        for book in self.books:
-         if title == book['title']:
-          self.books.remove(book)	
+    		# loop throubh books, remove the book if the title matches title passed in
+		for book in self.books:
+			if book['title'] == title:
+				self.books.remove(book)
 
 	# method for displaing book titles as a list, in alphabetical order
 	def display_titles(self):
