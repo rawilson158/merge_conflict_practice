@@ -16,7 +16,10 @@ class Booklist():
 		# append dict to books attribute (the list)
 		self.books.append(book)
 
-	# method for displaing book titles as a list, in alphabetical order
+	def count_books(self):
+    	return len(self.books)
+
+      	# method for displaing book titles as a list, in alphabetical order
 	def display_titles(self):
 		# initialize blank list
 		titles = []
