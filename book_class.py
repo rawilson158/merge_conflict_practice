@@ -18,6 +18,7 @@ class Booklist():
 
 	def count_books(self):
     	return len(self.books)
+<<<<<<< HEAD
   
 	def remove_title(self, title):
     		# loop throubh books, remove the book if the title matches title passed in
@@ -26,6 +27,10 @@ class Booklist():
 				self.books.remove(book)
 
 	# method for displaing book titles as a list, in alphabetical order
+=======
+
+      	# method for displaing book titles as a list, in alphabetical order
+>>>>>>> robert_conflict_books
 	def display_titles(self):
 		# initialize blank list
 		titles = []
@@ -38,3 +43,5 @@ class Booklist():
 
 		# print sorted titles
 		return(titles)
+
+# 		
