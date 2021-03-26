@@ -16,6 +16,14 @@ class Booklist():
 		# append dict to books attribute (the list)
 		self.books.append(book)
 
+	def count_books(self):
+    	return len(self.books)
+
+	def remove_title(self, title):
+        for book in self.books:
+         if title == book['title']:
+          self.books.remove(book)	
+
 	# method for displaing book titles as a list, in alphabetical order
 	def display_titles(self):
 		# initialize blank list
